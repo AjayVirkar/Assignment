@@ -1,0 +1,70 @@
+.main-container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.searchBar{
+  margin: 20px 0;
+}
+.searchBar label{
+  margin-left: 15px;
+  font-size: 18px;
+  font-family: 500;
+}
+.serach-input-field{
+  margin-left: 20px;
+  padding-left:8px;
+  border:none;
+  width: 300px;
+  height: 35px;
+  box-sizing: border-box;
+  background: rgba(217, 217, 217, 0.24);
+  border: 1px solid #000000;
+  border-radius: 12px;
+  }
+.filter-dropdown{
+  margin-left: 12px;
+  padding-left: 8px;
+  width: 112px;
+  height: 32px;
+  background: #DBEDF5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.searchButton{
+  margin-left: 46px;
+  border:none;
+  width: 80px;
+  height: 34px;
+  font-size: 16px;
+  background: #EF3636;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+.card{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.repo-card:hover{
+  transform: scale(1.01); 
+}
+
+.repo-card{
+  width: 300px;
+  background: #DBEDF5;
+  height: fit-content;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.repo-card img{
+  width: 300px;
+  height: 300px;
+}
+.repo-card h3{
+  color: red;
+}
+
+
